@@ -1,0 +1,39 @@
+.title {
+  width: 50%;
+  text-align: center;
+  color: var(--very-dark-blue);
+
+  margin: 0 auto;
+}
+
+.title > span {
+  font-weight: 200;
+}
+
+.description {
+  width: 60%;
+  text-align: center;
+  color: var(--grayish-blue);
+
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 650px) {
+  .title {
+    width: 80%;
+  }
+
+  .description {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .title {
+    width: 95%;
+  }
+
+  .description {
+    width: 95%;
+  }
+}

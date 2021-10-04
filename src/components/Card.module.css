@@ -1,0 +1,32 @@
+.card {
+  padding: 1.5rem;
+  border-radius: 5px;
+  border-top: 4px solid;
+  box-shadow: 0 10px 20px hsla(180, 62%, 55%, 0.349);
+  min-width: 100%;
+  display: grid;
+}
+
+.card > h2 {
+  color: var(--very-dark-blue);
+}
+
+.card > p {
+  color: var(--grayish-blue);
+}
+
+.card > img {
+  place-self: end end;
+}
+
+@media only screen and (min-width: 1920px) {
+  .card > h2 {
+    height: 1rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .card {
+    height: 30vh;
+  }
+}
